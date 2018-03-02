@@ -11,4 +11,4 @@ def hello(array)
 end
 
 # binding.pry
-puts hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+print hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
